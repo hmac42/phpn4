@@ -7,7 +7,7 @@ class Voiture{
     public $carburant ;                                    
     private $vitesse = 0; 
     
-    public function __construct($co,$car){          //__construct est le constructeur
+    public function __construct($co,$car){          //__construct est le constructeur 
         $this->couleur = $co;
         $this->carburant = $car;
         
