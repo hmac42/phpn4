@@ -48,8 +48,8 @@ function loadrss($url)
         $descript = $test->getElementsByTagName('description')->item(0)->nodeValue;
         $image = $test->getElementsByTagName('thumbnail')->item(0)->nodeValue;
         $pubDate = $test->getElementsByTagName('pubDate')->item(0)->nodeValue;
-        echo "<h2>Titre de la News : </h2><br<h3>".$titre."</h3>";
-        echo "<p>".$link."</p>";
+        echo "<h2>Titre de la News : </h2><br<h3>".$titre."</h3><br>";
+        echo "<a href=\"https:\/\/www.jeuxvideo.com/videos/1297464/apex-legends-presente-son-evenement-de-collection-marche-secondaire.htm\">".$link."</a>";
         echo "<h5>".$descript."</h5>";
         echo "<img".$image.">";
         echo "<time>".$pubDate."</time>";}
